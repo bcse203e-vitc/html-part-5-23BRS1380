@@ -1,0 +1,42 @@
+body {
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+.timeline {
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+}
+
+.item {
+  position: relative;
+  padding: 20px 0;
+}
+
+.item::before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  top: 50px;
+  width: 10px;
+  height: 10px;
+  background-color: #007bff;
+  border-radius: 50%;
+}
+
+.date {
+  font-weight: bold;
+}
+
+.content {
+  margin-left: 30px;
+}
+
+.title {
+  font-size: 1.1em;
+}
+
+.description {
+  font-size: 0.9em;
+}
